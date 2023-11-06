@@ -1077,6 +1077,8 @@ module.exports = {
         "gray-black": "#838383",
         "light-gray": "#F8F8F8",
         "purple-blue": "#4F46E5",
+        "light-purple": "#B3AFF5",
+        "light-white": "#F9F9F9"
       },
       container: {
         screens: {

@@ -1,6 +1,9 @@
-.banner{
+.banner {
   background-image: url("../public/images/banner-background.png");
 }
-.footer_upper{
+.footer_upper {
+  background-image: url("../public/images/footer_upper.png");
+}
+.workwith {
   background-image: url("../public/images/footer_upper.png");
 }
