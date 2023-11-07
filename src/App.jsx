@@ -4,6 +4,7 @@ import Banner from "./Components/Banner";
 import Footer from "./Components/Footer";
 import Faq from "./Components/Faq";
 import Aboutus from "./Components/Aboutus";
+import Workwith from "./Components/Workwith";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Banner />
       <Aboutus />
+      <Workwith />
       <Faq />
       <Footer />
     </>

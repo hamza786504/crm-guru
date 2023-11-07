@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BiChevronDown } from "react-icons/bi"
 import { LuSearch } from "react-icons/lu"
+import { Us } from "react-flags-select";
 
 function Navbar() {
   return (
@@ -31,7 +32,7 @@ function Navbar() {
             <div className="cta flex items-center">
                 <button type="button" ><LuSearch className="text-white text-md cursor-pointer me-3" /></button>
                 <span className="flex items-center space-x-1 text-white">
-                    <img src="/images/header-icon.png" alt="" />
+                <Us />
                     <span>ID</span>
                 </span>
                 <button type="button" className="bg-white text-purple-blue py-1 p-2 rounded-sm ms-3">Join or Sign In</button>

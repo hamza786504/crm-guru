@@ -1078,7 +1078,9 @@ module.exports = {
         "light-gray": "#F8F8F8",
         "purple-blue": "#4F46E5",
         "light-purple": "#B3AFF5",
-        "light-white": "#F9F9F9"
+        "light-white": "#F9F9F9",
+        "dull-purple": "#7C7C93",
+        "purple": "#252530",
       },
       container: {
         screens: {
@@ -1088,6 +1090,9 @@ module.exports = {
       fontSize: {
         'custom-sm': '10px',
       },
+      backgroundImage: {
+        'work': "url('/public/images/work.png')",
+      }
     },
   },
   plugins: [],
