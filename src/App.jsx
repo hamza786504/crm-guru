@@ -7,12 +7,14 @@ import Aboutus from "./Components/Aboutus";
 import Workwith from "./Components/Workwith";
 import Hire from "./Components/Hire";
 import Results from "./Components/Results";
+import Expert from "./Components/Expert";
 
 function App() {
   return (
     <>
       <Navbar />
       <Banner />
+      <Expert />
       <Results />
       <Hire />
       <Aboutus />

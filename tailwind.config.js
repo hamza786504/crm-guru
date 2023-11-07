@@ -1081,6 +1081,8 @@ module.exports = {
         "light-white": "#F9F9F9",
         "dull-purple": "#7C7C93",
         "purple": "#252530",
+        "custom-green": "#3CA10D",
+        "custom-gray": "#999999"
       },
       container: {
         screens: {
@@ -1095,6 +1097,9 @@ module.exports = {
       },
       spacing: {
         '140px': '140px',
+      },
+      boxShadow: {
+        'custom': '0 1px 4px rgba(0, 0, 0, 0.25)',
       },
     },
   },
