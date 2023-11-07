@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <>
       <nav className="header px-2 fixed top-0 left-0 right-0 py-4 flex items-center">
-        <div className="container container-md mx-auto">
+        <div className="max-w-md-block w-full mx-auto">
           <header className="flex items-center justify-between">
             <div className="logo min-w-[180px]">
               <img src="/images/crm-logo.png" alt="logo" />

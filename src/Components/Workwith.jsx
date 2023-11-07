@@ -4,7 +4,7 @@ function Workwith() {
   return (
     <>
       <div className="px-2">
-        <div className="container container-sm mx-auto rounded-md overflow-hidden">
+        <div className="max-w-sm-block mx-auto rounded-md overflow-hidden">
           <section className="text-center md:text-left workwith bg-purple md:bg-work bg-center md:bg-url bg-no-repeat bg-cover p-8">
             <h2 className="text-white text-xl mb-0">
               Work with certified experts <br />

@@ -10,7 +10,7 @@ function Banner() {
   return (
     <>
       <section className="banner px-2 min-h-[486px] md:max-h-[530px] text-center bg-cover bg-no-repeat bg-center pt-24 pb-20">
-        <div className="mx-auto container container-sm">
+        <div className="mx-auto max-w-sm-block">
           <h1 className="text-4xl text-semibold text-white">
             Find the Perfect Expert for Your CRM
           </h1>

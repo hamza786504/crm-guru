@@ -5,7 +5,7 @@ function Hire() {
   return (
     <>
       <section className="hire py-24 md:bg-center md:bg-no-repeat md:bg-cover xl:bg-contain bg-purple-blue max-md:bg-none">
-        <div className="container container-sm px-2 mx-auto">
+        <div className="max-w-sm-block px-2 mx-auto">
           <div className="md:text-start max-w-[350px] mx-auto md:ml-0 text-center">
             <h2 className="text-white text-center md:text-left text-5xl font-semibold leading-snug">
               How to hire a CRM expert?

@@ -35,7 +35,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer_lower pt-3 pb-5 px-2">
-          <div className="container container-sm mx-auto flex items-center justify-between flex-col md:flex-row">
+          <div className="max-w-sm-block mx-auto flex items-center justify-between flex-col md:flex-row">
             <div className="flex items-center justify-center md:justify-start flex-row flex-wrap">
               <Link to="/" className="logo me-6 my-1">
                 <img src="/images/footer-logo.png" alt="logo" />

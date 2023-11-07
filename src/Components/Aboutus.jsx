@@ -32,7 +32,7 @@ function Aboutus() {
   return (
     <>
       <section className="about px-2 pt-24 pb-20">
-        <div className="container container-sm mx-auto flex flex-wrap flex-col md:flex-row items-start">
+        <div className="max-w-sm-block mx-auto flex flex-wrap flex-col md:flex-row items-start">
           <div className="why_us bg-light-gray md:justify-start justify-center p-5 md:w-1/2 w-full rounded-md">
             <h3 className="text-light-black text-xl mb-3">Why CRMguru?</h3>
 

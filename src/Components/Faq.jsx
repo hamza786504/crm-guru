@@ -55,7 +55,7 @@ export default function Faq(): JSX.Element {
       <h2 className="text-light-black text-center text-2xl font-semibold mb-7">
         Frequently Asked Questions
       </h2>
-      <div className="container container-sm mx-auto overflow-hidden">
+      <div className="max-w-sm-block mx-auto overflow-hidden">
         <div id="accordionExample">
           {accordionData.map((item) => (
             <div

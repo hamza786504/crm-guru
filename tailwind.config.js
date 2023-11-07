@@ -1084,10 +1084,12 @@ module.exports = {
         "custom-green": "#3CA10D",
         "custom-gray": "#999999"
       },
-      container: {
-        screens: {
-          sm: "750px",
-        },
+      // container: {
+      //     sm: "750px",
+      // },
+      maxWidth: {
+        'md-block': '990px',
+        'sm-block': '750px',
       },
       fontSize: {
         'custom-sm': '10px',

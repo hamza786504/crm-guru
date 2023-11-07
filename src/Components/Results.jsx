@@ -4,11 +4,11 @@ function Results() {
   return (
     <>
       <section className="px-2 relative pt-24 pb-20">
-        <div className="container container-sm mx-auto lg:ms-0 xl:ms-140px 2xl:mx-auto">
+        <div className="max-w-sm-block mx-auto lg:ms-0 xl:ms-140px 2xl:mx-auto">
           <h2 className="text-center text-light-black font-semibold text-2xl">
             Successful result of business with a CRM expert
           </h2>
-          <div className="container container-sm mx-auto mt-10">
+          <div className="max-w-sm-block mx-auto mt-10">
             <div className="flex items-start justify-center flex-wrap flex-col md:flex-row max-w-[400px] mx-auto md:max-w-full">
               <div className="w-full md:w-1/2 flex items-center justify-start mb-5">
                 <div className="inner w-full md:w-11/12 flex items-center flex-row flex-nowrap justify-start">

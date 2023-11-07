@@ -8,6 +8,7 @@ import Workwith from "./Components/Workwith";
 import Hire from "./Components/Hire";
 import Results from "./Components/Results";
 import Expert from "./Components/Expert";
+import Cusomer from "./Components/Cusomer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Results />
       <Hire />
       <Aboutus />
+      <Cusomer />
       <Workwith />
       <Faq />
       <Footer />
