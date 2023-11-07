@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -147,9 +147,12 @@ function Expert() {
     },
   ];
 
+
+
+
   return (
     <>
-      <section className="px-2 relative pt-36 pb-20">
+      <section className="px-2 relative pt-36 pb-20" id="explore-expert">
         <div className="max-w-sm-block mx-auto lg:ms-0 xl:ms-140px 2xl:mx-auto md:px-16">
           <h2 className="text-center text-light-black font-semibold text-xl">
             We provide Expert For Every CRM Software

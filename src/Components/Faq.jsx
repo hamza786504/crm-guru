@@ -51,7 +51,7 @@ export default function Faq(): JSX.Element {
   ];
 
   return (
-    <section className="faq px-2 pt-24 pb-20">
+    <section className="faq px-2 pt-24 pb-20" id="faq">
       <h2 className="text-light-black text-center text-2xl font-semibold mb-7">
         Frequently Asked Questions
       </h2>
