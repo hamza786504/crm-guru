@@ -9,7 +9,7 @@ function Banner() {
 
   return (
     <>
-      <section className="banner px-2 min-h-[486px] text-center bg-cover bg-no-repeat bg-center pt-24 pb-20">
+      <section className="banner px-2 min-h-[486px] md:max-h-[530px] text-center bg-cover bg-no-repeat bg-center pt-24 pb-20">
         <div className="mx-auto container container-sm">
           <h1 className="text-4xl text-semibold text-white">
             Find the Perfect Expert for Your CRM
@@ -20,12 +20,12 @@ function Banner() {
           </p>
           <form
             id="search-form"
-            className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-3 px-14  my-6"
+            className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-3 md:px-14 my-6"
           >
             <div className="relative w-full md:w-auto">
               <select
                 id="floating_outlined"
-                className="block w-full px-2.5 pb-2.5 pt-6 h-15 text-sm text-black bg-white border border-gray-300 appearance-none focus:outline-none peer rounded-md min-w-[250px]"
+                className="block w-full px-2.5 pb-2.5 pt-6 h-15 text-sm text-black bg-white border border-gray-300 appearance-none focus:outline-none peer rounded-md md:min-w-[250px]"
               >
                 {softwareOptions.map((option, index) => (
                   <option key={index} value={option}>
@@ -92,6 +92,7 @@ function Banner() {
           <p className="text-center text-custom-sm text-white my-5">
             How it works:
           </p>
+          <iframe width="100%" className="max-w-[370px] aspect-[370/197] mx-auto" src="https://www.youtube.com/embed/uLPOl46UygY?si=NGNeNZhpgBUg6aZF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
         </div>
       </section>
     </>

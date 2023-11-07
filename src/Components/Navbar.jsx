@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BiChevronDown } from "react-icons/bi"
-import { LuSearch } from "react-icons/lu"
+import { BiChevronDown } from "react-icons/bi";
+import { LuSearch } from "react-icons/lu";
 import { Us } from "react-flags-select";
+import { AiOutlineMenu } from "react-icons/ai";
 
 function Navbar() {
   return (
@@ -13,31 +14,56 @@ function Navbar() {
             <div className="logo min-w-[180px]">
               <img src="/images/crm-logo.png" alt="logo" />
             </div>
-            <div className="menu_bar flex-1 items-center justify-start">
-              <ul className="menu flex items-center justify-start space-x-4">
-                <li>
-                    <Link to='/explore-expert' className='text-white text-sm flex items-center'>Explore Expert <BiChevronDown className="ms-1"/></Link>
-                </li>
-                <li>
-                    <Link to='/about'  className='text-white text-sm flex items-center'>About <BiChevronDown className="ms-1"/></Link>
-                </li>
-                <li>
-                    <Link to='/blog' className='text-white text-sm'>BLOG</Link>
-                </li>
-                <li>
-                    <Link to='/faq' className='text-white text-sm'>FAQ</Link>
-                </li>
-              </ul>
-            </div>
-            <div className="cta flex items-center">
-                <button type="button" ><LuSearch className="text-white text-md cursor-pointer me-3" /></button>
+            <div className="responsive_bar flex-1 hidden items-center justify-center md:flex">
+              <div className="menu_bar flex-1 items-center justify-start">
+                <ul className="menu flex items-center justify-start space-x-4">
+                  <li>
+                    <Link
+                      to="/explore-expert"
+                      className="text-white text-sm flex items-center"
+                    >
+                      Explore Expert <BiChevronDown className="ms-1" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/about"
+                      className="text-white text-sm flex items-center"
+                    >
+                      About <BiChevronDown className="ms-1" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/blog" className="text-white text-sm">
+                      BLOG
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/faq" className="text-white text-sm">
+                      FAQ
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="cta flex items-center">
+                <button type="button">
+                  <LuSearch className="text-white text-md cursor-pointer me-3" />
+                </button>
                 <span className="flex items-center space-x-1 text-white">
-                <Us />
-                    <span>ID</span>
+                  <Us />
+                  <span>ID</span>
                 </span>
-                <button type="button" className="bg-white text-purple-blue py-1 p-2 rounded-sm ms-3">Join or Sign In</button>
-
+                <button
+                  type="button"
+                  className="bg-white text-purple-blue py-1 p-2 rounded-sm ms-3"
+                >
+                  Join or Sign In
+                </button>
+              </div>
             </div>
+            <button type="button" className="hamburger">
+              <AiOutlineMenu className="text-xl md:hidden text-white" />
+            </button>
           </header>
         </div>
       </nav>
