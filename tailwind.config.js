@@ -1092,7 +1092,10 @@ module.exports = {
       },
       backgroundImage: {
         'work': "url('/public/images/work.png')",
-      }
+      },
+      spacing: {
+        '140px': '140px',
+      },
     },
   },
   plugins: [],

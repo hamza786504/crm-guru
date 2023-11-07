@@ -25,7 +25,7 @@ function Banner() {
             <div className="relative w-full md:w-auto">
               <select
                 id="floating_outlined"
-                className="block w-full px-2.5 pb-2.5 pt-6 h-15 text-sm text-black bg-white border border-gray-300 appearance-none focus:outline-none peer rounded-md md:min-w-[250px]"
+                className="block w-full px-2.5 pb-2.5 pt-6 h-15 text-sm text-black bg-white border border-gray-300 appearance-none focus:outline-none peer rounded-md md:min-w-[200px]"
               >
                 {softwareOptions.map((option, index) => (
                   <option key={index} value={option}>
@@ -42,7 +42,7 @@ function Banner() {
             </div>
 
             <div className="flex flex-col md:flex-row items-center flex-1 rounded-md md:bg-white w-full">
-              <div className="relative w-full md:w-1/2 md:me-1">
+              <div className="relative w-full md:w-2/3 md:me-1">
                 <ReactFlagsSelect
                   selected={selected}
                   className="bg-white pt-4 border-none menu-flags px-0 rounded md:rounded-s h-full pb-2"
@@ -57,7 +57,7 @@ function Banner() {
                 </label>
               </div>
 
-              <div className="relative w-full mt-4 md:mt-0 md:w-1/2">
+              <div className="relative w-full mt-4 md:mt-0 md:w-1/3">
                 <select
                   id="floating_outlined"
                   className="block px-2.5 pt-5 pb-3 w-full rounded md:rounded-e border-none h-15 text-sm text-black bg-white border border-gray-300 appearance-none focus:outline-none peer"
@@ -80,7 +80,7 @@ function Banner() {
               Search
             </button>
           </form>
-          <p className="text-center text-custom-sm text-white my-4">
+          <p className="hidden md:block text-center text-custom-sm text-white my-4">
             Trusted by:
           </p>
 

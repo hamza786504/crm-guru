@@ -4,6 +4,9 @@
 .footer_upper {
   background-image: url("../public/images/footer_upper.png");
 }
+.hire{
+  background-image: url("../public/images/hire.png");
+}
 .menu-flags button {
   border: none;
   padding: 0 3px;

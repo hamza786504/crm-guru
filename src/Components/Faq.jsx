@@ -60,14 +60,14 @@ export default function Faq(): JSX.Element {
           {accordionData.map((item) => (
             <div
               key={item.id}
-              className="rounded-none border border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-300 dark:bg-neutral-800"
+              className="rounded-none border border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-300"
             >
               <h2 className="mb-0">
                 <button
                   className={`${
                     activeElement === item.id &&
                     `text-primary [box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:!text-primary-400 dark:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]`
-                  } group relative flex w-full items-center rounded-none border-0 bg-white px-0 py-4 text-left text-base text-dark-black transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:white dark:text-dark-balck`}
+                  } group relative flex w-full items-center rounded-none border-0 bg-white px-0 py-4 text-left text-sm md:text-base text-dark-black transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:white dark:text-dark-balck`}
                   type="button"
                   onClick={() => handleClick(item.id)}
                   aria-expanded="true"
