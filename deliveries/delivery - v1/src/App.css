@@ -1,0 +1,22 @@
+.banner {
+  background-image: url("../public/images/banner-background.png");
+}
+.footer_upper {
+  background-image: url("../public/images/footer_upper.png");
+}
+.hire{
+  background-image: url("../public/images/hire.png");
+}
+.menu-flags button {
+  border: none;
+  padding: 0 3px;
+}
+.ReactFlagsSelect-module_selectBtn__19wW7:after,
+.ReactFlagsSelect-module_selectBtn__19wW7[aria-expanded="true"]:after {
+  margin-left: 0 !important;
+}
+.ReactFlagsSelect-module_label__27pw9 {
+  overflow-x: hidden;
+  min-width: 130px;
+  text-align: left;
+}
