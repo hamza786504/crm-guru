@@ -1082,7 +1082,8 @@ module.exports = {
         "dull-purple": "#7C7C93",
         "purple": "#252530",
         "custom-green": "#3CA10D",
-        "custom-gray": "#999999"
+        "custom-gray": "#999999",
+        "blue" : "#9B96FA"
       },
       // container: {
       //     sm: "750px",

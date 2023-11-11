@@ -3,9 +3,12 @@ import ReactFlagsSelect from "react-flags-select";
 
 function Banner() {
   const [selected, setSelected] = useState("GB");
-
- 
   const softwareOptions = ["Zapier", "Premiere Pro", "Photoshop"];
+  const [zipcode, setZipcode] = useState("");
+
+  const handleZipcodeChange = (e) => {
+    setZipcode(e.target.value);
+  };
 
   return (
     <>
@@ -58,15 +61,30 @@ function Banner() {
               </div>
 
               <div className="relative w-full mt-4 md:mt-0 md:w-1/3">
-                <select
+                {/* <input
+                  type="text"
                   id="floating_outlined"
-                  className="block px-2.5 pt-5 pb-3 w-full rounded md:rounded-e border-none h-15 text-sm text-black bg-white border border-gray-300 appearance-none focus:outline-none peer"
-                >
-                  <option value="">90001</option>
-                </select>
+                  className={`block px-2.5 pt-5 pb-3 w-full rounded md:rounded-e border-none h-15 text-sm text-black bg-white border border-gray-300 appearance-none focus:outline-none peer ${
+                    zipcode ? "pt-8" : ""
+                  }`}
+                  value={zipcode}
+                  onChange={handleZipcodeChange}
+                /> */}
+
+                  <input
+                    type="text"
+                    id="floating_outlined"
+                    className={`block px-2.5 pt-5 pb-3 w-full rounded md:rounded-e border-none h-15 text-sm text-black bg-white border border-gray-300 appearance-none focus:outline-none peer ${
+                      zipcode ? "pt-8" : ""
+                    }`}
+                    value={zipcode}
+                    onChange={handleZipcodeChange}
+                    placeholder=" "
+                  />
+
                 <label
                   htmlFor="floating_outlined"
-                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-1 scale-75 top-2 z-10 origin-0 left-1"
+                  className={`absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-1 scale-75 top-1 z-10 origin-0 left-1`}
                 >
                   Zip code
                 </label>
@@ -92,7 +110,15 @@ function Banner() {
           <p className="text-center text-custom-sm text-white my-5">
             How it works:
           </p>
-          <iframe width="100%" className="max-w-[370px] aspect-[370/197] mx-auto" src="https://www.youtube.com/embed/uLPOl46UygY?si=NGNeNZhpgBUg6aZF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+          <iframe
+            width="100%"
+            className="max-w-[370px] aspect-[370/197] mx-auto"
+            src="https://www.youtube.com/embed/uLPOl46UygY?si=NGNeNZhpgBUg6aZF"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </section>
     </>
